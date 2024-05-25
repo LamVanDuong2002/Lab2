@@ -34,7 +34,7 @@ export default function App() {
                 {/* <StackNavigator/> */}
                 {/* <StackNavigatorv2/> */}
                 {/* <DrawerNavigator/> */}
-                {/* <BottomTabNavigator/> */}
+                <BottomTabNavigator/>
              </PaperProvider>
         </NavigationContainer>
   );

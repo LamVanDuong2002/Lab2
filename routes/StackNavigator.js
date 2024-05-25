@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 
 const Logo = () =>{
      return(
-          <Avatar.Image source={{uri:'https://depor.com/resizer/MzR6DTvzsDN190qjzRdrksHkLM0=/580x330/smart/filters:format(jpeg):quality(90)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/K7XVCC5G2RB3XGMJSSIWVNHTZI.jpg'}}
+          <Avatar.Image source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmBT7Sx6K37zhx1cnB9Zg5lc8tE6ZDITq0uIKrFn73bQ&s'}}
           size={40}/>
      )
 }
@@ -17,7 +17,7 @@ const StackNavigator = () => {
     <Stack.Navigator
       initialRouteName="Home"
       screenOptions={{
-        headerStyle: { backgroundColor: 'pink' },
+        headerStyle: { backgroundColor: 'aqua' },
       
        
       }}

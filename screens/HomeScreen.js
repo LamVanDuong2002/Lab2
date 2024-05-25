@@ -4,7 +4,7 @@ import React, { useLayoutEffect, useState }  from "react"
 import {Icon} from "react-native-paper"
 const HomeScreen =({navigation}) =>{
      const [count, setCount] = useState(0)
-     const myInfo = {name: "Nguyễn Trung Tính", studentID: "2024802010018"}
+     const myInfo = {name: "Lam Van Duong", studentID: "2024802010396"}
      useLayoutEffect(()=>{
           navigation.setOptions({
                headerRight: () => <Button onPress = {() => {setCount(count+1)

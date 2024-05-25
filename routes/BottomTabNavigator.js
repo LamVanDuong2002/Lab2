@@ -12,7 +12,7 @@ const BottomTabNavigator = () =>{
      return(
           <Tab.Navigator
                initialRouteName='Home'
-               barStyle={{ backgroundColor: 'pink' }}
+               barStyle={{ backgroundColor: 'aqua' }}
                labeled={true}
                activeTintColor='black'
                inactiveColor='white'>
